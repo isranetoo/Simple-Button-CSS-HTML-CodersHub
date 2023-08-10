@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,500;0,900;1,300;1,900&family=Roboto+Mono:ital,wght@0,300;0,600;1,600&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn-menu {
+  justify-content: center;
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  cursor: pointer;
+  font-family: 'Roboto Mono', monospace;
+  height: 60px;
+  width: 105px;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+.btn-menu a{
+  color: #36395A;
+  display: block;
+  text-decoration: none;
+}
+
+.btn-menu:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.btn-menu:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn-menu:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
